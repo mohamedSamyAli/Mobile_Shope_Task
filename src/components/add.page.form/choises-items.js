@@ -1,7 +1,7 @@
 
 import React from 'react'
 
-import { Layout, Form, Input, DatePicker, Select, Row, Col, Checkbox, Radio } from 'antd';
+import { Layout, Form, Checkbox, Radio } from 'antd';
 
 import "./styles.css"
 const { Item } = Form

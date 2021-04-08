@@ -7,7 +7,7 @@ export const getAllMobiles = () => {
 }
 
 export const getFilteredMobiles = (model,brand) => {
-    debugger
+    
     let mobiles = getAllMobiles()
 
     return mobiles.filter(el=>{
@@ -19,7 +19,7 @@ export const getFilteredMobiles = (model,brand) => {
     })
 }
 export const addMobile = (data) => {
-    debugger
+    
     let mobiles = getAllMobiles()
     mobiles.push(data)
     addDataToLocalStorage("mobiles" , mobiles)

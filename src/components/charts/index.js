@@ -1,7 +1,7 @@
 import React from 'react'
 import Chart from 'react-google-charts'
 import { getDataForColumnChart, getDataForDonutChart } from '../../services/charts'
-import { Offline, Online } from "react-detect-offline";
+import { Offline } from "react-detect-offline";
 
 import "./styles.css"
 const donutOptions = {

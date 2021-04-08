@@ -15,7 +15,7 @@ export const MobilesTable = (props) => {
     const [previewData, setPreviewData] = useState(null)
     const [data, setData] = useState([])
     const onSearch = (e) => {
-        debugger
+        
         setData(getFilteredMobiles(e.model, e.brand))
     }
     useEffect(() => {
@@ -51,7 +51,7 @@ export const MobilesTable = (props) => {
                 onRow={(record, rowIndex) => {
                     return {
                         onClick: (event) => {
-                            debugger
+                            
                             setPreviewData(record)
                         }, // click row
                     };

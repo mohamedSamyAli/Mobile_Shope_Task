@@ -13,7 +13,6 @@ const { Header, Content } = Layout;
 export const AddPage = ({preview,...props}) => {
   let history = useHistory();
   const onFinish = (data) => {
-    console.log(useHistory,history)
     addMobile(data)
     history.push("/mainpage")    
   }

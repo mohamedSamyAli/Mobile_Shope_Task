@@ -1,7 +1,7 @@
 
 import React from 'react'
 
-import { Layout, Form, Input, DatePicker, Select, Row, Col } from 'antd';
+import { Layout, Form, Input, DatePicker, Select} from 'antd';
 import "./styles.css"
 import { getBrands, getMemory } from '../../services/lookups.services';
 const { Item } = Form

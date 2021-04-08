@@ -26,5 +26,6 @@ export const getDataForColumnChart = ()=>{
     Object.getOwnPropertyNames(sum)?.forEach(el=>{
         data.push([el,sum[el]])
     })
+    console.log(data)
     return data
 }

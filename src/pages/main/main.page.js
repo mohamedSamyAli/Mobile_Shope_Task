@@ -5,7 +5,7 @@ import { MobilesTable } from '../../components/table-search';
 import { ChartsComponent } from '../../components/charts';
 import { Link } from 'react-router-dom';
 
-const { Header, Footer, Sider, Content } = Layout;
+const { Header, Content } = Layout;
 export const MainPage = (props) => {
 
     return (
