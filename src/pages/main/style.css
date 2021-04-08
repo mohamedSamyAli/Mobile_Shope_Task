@@ -1,0 +1,9 @@
+.header{
+    font-size: xx-large;
+    color: white;
+}
+
+.border-rigth-style{
+    border-right-style: solid;
+    padding: 10px;
+}

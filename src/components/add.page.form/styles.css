@@ -1,0 +1,34 @@
+.add-form-input{
+    width:100% !important
+}
+
+.choises-box{
+    display: flex;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    justify-content: space-around;
+}
+
+.choises-directions{
+    display: flex;
+    flex-direction: column;
+}
+
+.choises-box .ant-checkbox-group-item{
+    margin-top: 10px;
+}
+
+
+
+.choises-box .ant-radio-wrapper{
+    margin-top: 10px;
+}
+
+.radio-lable{
+    display: flex;
+    margin-top: 5px;
+    margin-right: 5px;
+    font-size: medium;
+    font-weight: bold;
+}

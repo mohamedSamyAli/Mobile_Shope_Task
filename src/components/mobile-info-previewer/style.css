@@ -1,0 +1,12 @@
+.form-wraper{
+    margin: 10px;
+}
+
+.form-btn-wraper{
+    display: flex;
+}
+
+.header{
+    font-size: xx-large;
+    color: white;
+}
